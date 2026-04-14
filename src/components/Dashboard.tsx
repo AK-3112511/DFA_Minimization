@@ -234,6 +234,8 @@ export default function Dashboard() {
                          <span className="text-xs text-slate-500 font-medium text-center leading-tight">
                            {isFinished ? "Algorithm Complete" : isPlaying ? "Running Simulation" : "Step to trace"}
                          </span>
+                      </div>
+
                     </div>
                   </div>
                 )}
